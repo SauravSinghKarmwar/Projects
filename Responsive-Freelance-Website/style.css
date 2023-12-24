@@ -12,6 +12,7 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
+    background: transparent;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -111,7 +112,7 @@ nav .logo {
 
 .user-img {
     width: 80%;
-    max-width: 500px;
+    max-width: 385px;
     position: absolute;
     right: 13%;
     bottom: 0;
@@ -123,18 +124,19 @@ nav .logo {
     background: no-repeat;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    background-clip: text;
     background-size: 0%;
 }
 
 .header h1 span:first-child {
-    animation: textcolor1 2s linear infinite alternate;
+    animation: textColor1 2s linear infinite alternate;
 }
 
 .header h1 span:last-child {
-    animation: textcolor2 2s linear infinite alternate;
+    animation: textColor2 2s linear infinite alternate;
 }
 
-@keyframes textcolor1 {
+@keyframes textColor1 {
     0% {
         background-size: 0%;
     }
@@ -146,7 +148,7 @@ nav .logo {
     }
 }
 
-@keyframes textcolor2 {
+@keyframes textColor2 {
     0% {
         background-size: 0%;
     }
