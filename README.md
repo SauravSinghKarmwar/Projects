@@ -19,14 +19,12 @@ This repository serves as a consolidated portfolio of my web development project
    - ***Hosted Link:*** [PokeDex](https://dreamy-strudel-74ab8d.netlify.app/)
 
 3. **Freelancer Website**
-   - ***Description:*** Empowering freelancers and businesses to connect seamlessly, my freelance platform fosters a dynamic marketplace where skills meet
-                    opportunities, ensuring efficient collaboration and project success.
-   - ***Hosted Link:*** [Freelancer](#)
+   - ***Description:*** Discover boundless opportunities on my freelance platform – where talents converge, projects thrive, and success knows no limits.
+   - ***Hosted Link:*** [Freelancer](https://storied-brioche-b19aaa.netlify.app/)
 
 4. **Eduford**
-   - ***Description:*** Elevate your educational journey with our innovative college website, designed to inspire curiosity, foster academic excellence, and provide a
-                    seamless digital experience for students and visitors alike.
-   - ***Hosted Link:*** [Eduford](#)
+   - ***Description:*** Empowering education through a dynamic college website experience.
+   - ***Hosted Link:*** [Eduford](https://earnest-malasada-1b41c3.netlify.app/)
 
 ## Usage
 Feel free to explore, clone, or fork any project that interests you. Each project directory contains a README file with specific instructions on running or deploying the project. If you have any questions or suggestions, don't hesitate to open an issue.
