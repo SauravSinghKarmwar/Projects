@@ -19,11 +19,13 @@ This repository serves as a consolidated portfolio of my web development project
    - *Hosted Link:* [PokeDex](#)
 
 3. **Freelancer**
-   - *Description:* Empowering freelancers and businesses to connect seamlessly, my freelance platform fosters a dynamic marketplace where skills meet opportunities, ensuring efficient collaboration and project success.
+   - *Description:* Empowering freelancers and businesses to connect seamlessly, my freelance platform fosters a dynamic marketplace where skills meet
+                    opportunities, ensuring efficient collaboration and project success.
    - *Hosted Link:* [Freelancer](#)
 
 4. **Eduford**
-   - *Description:* Elevate your educational journey with our innovative college website, designed to inspire curiosity, foster academic excellence, and provide a seamless digital experience for students and visitors alike.
+   - *Description:* Elevate your educational journey with our innovative college website, designed to inspire curiosity, foster academic excellence, and provide a
+                    seamless digital experience for students and visitors alike.
    - *Hosted Link:* [Eduford](#)
 
 ## Usage
