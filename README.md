@@ -10,23 +10,23 @@ This repository serves as a consolidated portfolio of my web development project
 
 1. **Chrome-Extensions**
    - ***Description:*** A collection of Chrome extensions designed to enhance the browsing experience.
-   - *Hosted Link:*
-       - [To-Do Extensions](#)
-       - [Translator Extensions](#)
+   - ***Hosted Link:***
+       - [To-Do Extensions](https://ornate-starburst-facc70.netlify.app/)
+       - [Translator Extensions](https://resplendent-cheesecake-e5a00a.netlify.app/)
 
 2. **PokeDex**
-   - *Description:* An interactive Pokédex web application showcasing details of various Pokémon.
-   - *Hosted Link:* [PokeDex](#)
+   - ***Description:*** An interactive Pokédex web application showcasing details of various Pokémon.
+   - ***Hosted Link:*** [PokeDex](https://dreamy-strudel-74ab8d.netlify.app/)
 
-3. **Freelancer**
-   - *Description:* Empowering freelancers and businesses to connect seamlessly, my freelance platform fosters a dynamic marketplace where skills meet
+3. **Freelancer Website**
+   - ***Description:*** Empowering freelancers and businesses to connect seamlessly, my freelance platform fosters a dynamic marketplace where skills meet
                     opportunities, ensuring efficient collaboration and project success.
-   - *Hosted Link:* [Freelancer](#)
+   - ***Hosted Link:*** [Freelancer](#)
 
 4. **Eduford**
-   - *Description:* Elevate your educational journey with our innovative college website, designed to inspire curiosity, foster academic excellence, and provide a
+   - ***Description:*** Elevate your educational journey with our innovative college website, designed to inspire curiosity, foster academic excellence, and provide a
                     seamless digital experience for students and visitors alike.
-   - *Hosted Link:* [Eduford](#)
+   - ***Hosted Link:*** [Eduford](#)
 
 ## Usage
 Feel free to explore, clone, or fork any project that interests you. Each project directory contains a README file with specific instructions on running or deploying the project. If you have any questions or suggestions, don't hesitate to open an issue.
