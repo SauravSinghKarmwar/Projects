@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Meta information -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Title of the HTML document -->
+        <title>College Website</title>
+        <!-- Link external stylesheet -->
+        <link rel="stylesheet" href="style.css" />
+        <!-- Link Font Awesome Kit -->
+        <script
+            src="https://kit.fontawesome.com/02fb10fd4a.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <!-- Header Section -->
+        <section class="header">
+            <!-- Navigation Bar -->
+            <nav>
+                <!-- Logo -->
+                <a href="index.html">
+                    <img src="images/logo.png" />
+                </a>
+                <!-- Navigation Links -->
+                <div class="nav-links" id="navLinks">
+                    <i class="fas fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="./index.html">HOME</a></li>
+                        <li><a href="./about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <!-- Mobile Menu Icon -->
+                <i class="fas fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <!-- Hero Text Box -->
+            <div class="text-box">
+                <h1>World's Biggest University</h1>
+                <p>
+                    Making website is now one of the easiest thing in the world.
+                    You just need to learn HTML, CSS, <br />Javascript and you
+                    are good to go.
+                </p>
+                <a href="#" class="hero-btn">Visit us To Know More </a>
+            </div>
+        </section>
+
+        <!-- Course Section -->
+        <section class="course">
+            <h1>Courses We Offer</h1>
+            <p>
+                Explore our diverse range of courses designed to enhance your
+                learning experience.
+            </p>
+
+            <div class="row">
+                <div class="course-col">
+                    <h3>Intermediate</h3>
+                    <p>
+                        Acquire intermediate skills with our comprehensive
+                        courses. Discover new horizons in your educational
+                        journey.
+                    </p>
+                </div>
+                <div class="course-col">
+                    <h3>Degree</h3>
+                    <p>
+                        Pursue a degree that aligns with your passion and career
+                        goals. Unleash your potential and excel in your chosen
+                        field.
+                    </p>
+                </div>
+                <div class="course-col">
+                    <h3>Post Graduation</h3>
+                    <p>
+                        Elevate your academic profile with our post-graduation
+                        programs. Embrace advanced knowledge and excel in your
+                        chosen discipline.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Campus Section -->
+        <section class="campus">
+            <h1>Our Global Campus</h1>
+            <p>Embark on a journey of knowledge across our global campuses.</p>
+
+            <div class="row">
+                <div class="campus-col">
+                    <img src="images/london.png" />
+                    <div class="layer">
+                        <h3>LONDON</h3>
+                    </div>
+                </div>
+
+                <div class="campus-col">
+                    <img src="images/newyork.png" />
+                    <div class="layer">
+                        <h3>NEW YORK</h3>
+                    </div>
+                </div>
+
+                <div class="campus-col">
+                    <img src="images/washington.png" />
+                    <div class="layer">
+                        <h3>WASHINGTON</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Facilities Section -->
+        <section class="facilities">
+            <h1>Our Facilities</h1>
+            <p>
+                Immerse yourself in a world of exceptional amenities and
+                services.
+            </p>
+
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="images/library.png" />
+                    <h3>World Class Library</h3>
+                    <p>
+                        Dive into a sea of knowledge with our state-of-the-art
+                        library. An oasis for intellectual exploration.
+                    </p>
+                </div>
+
+                <div class="facilities-col">
+                    <img src="images/basketball.png" />
+                    <h3>Largest Play Ground</h3>
+                    <p>
+                        Unleash your energy on our expansive playground. A haven
+                        for sports enthusiasts and active minds.
+                    </p>
+                </div>
+
+                <div class="facilities-col">
+                    <img src="images/cafeteria.png" />
+                    <h3>Tasty and Healthy Food</h3>
+                    <p>
+                        Indulge your taste buds with our delightful and
+                        nutritious cuisine. Fuel for both body and mind.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials">
+            <h1>What Our Student Says</h1>
+            <p>
+                Discover what our students have to say about their
+                transformative experiences.
+            </p>
+
+            <div class="row">
+                <div class="testimonial-col">
+                    <img src="images/user1.jpg" />
+                    <div>
+                        <p>
+                            "The educational journey here is truly
+                            transformative. A nurturing environment that fosters
+                            both personal and academic growth."
+                        </p>
+                        <h3>Christine Berkley</h3>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="testimonial-col">
+                    <img src="images/user2.jpg" />
+                    <div>
+                        <p>
+                            "This institution goes beyond education; it's a
+                            community that nurtures creativity and critical
+                            thinking. Truly exceptional!"
+                        </p>
+                        <h3>David Byer</h3>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA (Call To Action) Section -->
+        <section class="cta">
+            <h1>
+                Enroll For Our Various Online Courses <br />Anywhere From The
+                World
+            </h1>
+            <a href="#" class="hero-btn">CONTACT US</a>
+        </section>
+
+        <!-- Footer Section -->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>
+                Committed to the pursuit of knowledge and the empowerment of
+                individuals, our institution stands as a beacon of learning and
+                inspiration. We are on a mission to nurture inquisitive minds,
+                encourage creativity, and drive positive change. Our dedicated
+                team strives to provide a supportive learning environment that
+                fosters personal growth and academic excellence. Join us on a
+                journey of discovery, where education transcends boundaries and
+                transforms lives.
+            </p>
+
+            <div class="icons">
+                <i class="fab fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+
+            <p>
+                Made With
+                <i class="far fa-heart"></i>
+                by S A U R A V
+            </p>
+        </section>
+
+        <!-- Link external script -->
+        <script src="script.js"></script>
+    </body>
+</html>
