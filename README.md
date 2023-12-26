@@ -9,7 +9,7 @@ This repository serves as a consolidated portfolio of my web development project
 ## Projects
 
 1. **Chrome-Extensions**
-   - *Description:* A collection of Chrome extensions designed to enhance the browsing experience.
+   - ***Description:*** A collection of Chrome extensions designed to enhance the browsing experience.
    - *Hosted Link:*
        - [To-Do Extensions](#)
        - [Translator Extensions](#)
