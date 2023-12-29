@@ -44,7 +44,7 @@ body {
     margin: 0 auto;
 }
 
-.profile-picture {
+.profile-photo {
     width: 2.7rem;
     aspect-ratio: 1/1;
     border-radius: 50%;
@@ -103,6 +103,9 @@ nav .search-bar {
     background: var(--color-light);
     border-radius: var(--border-radius);
     padding: var(--search-padding);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 nav .search-bar input[type="search"] {
