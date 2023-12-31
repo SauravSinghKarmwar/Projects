@@ -545,6 +545,7 @@ main .container .right {
     display: grid;
     place-items: center;
     font-size: 0.9rem;
+    display: none;
 }
 
 .customize-theme .card {
@@ -684,7 +685,31 @@ main .container .right {
     margin-right: 1rem;
 }
 
-/* ============== RESPONSIVE =============== */
+/* ============== RESPONSIVE FOR LAPS / BIG TABS =============== */
 @media screen and (max-width: 1280px) {
-    
+    .container {
+        width: 90%;
+    }
+
+    main .container {
+        grid-template-columns: 5rem auto 30vw;
+        gap: 1rem;
+    }
+
+    .left {
+        width: 5rem;
+        z-index: 5;
+    }
+
+    main .container .left .profile {
+        display: none;
+    }
+
+    .sidebar h3 {
+        display: none;
+    }
+
+    .left .btn {
+        display: none;
+    }
 }
