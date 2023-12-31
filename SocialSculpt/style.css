@@ -721,14 +721,15 @@ main .container .right {
     }
 
     main .container {
-        grid-template-columns: 0 auto 5rem;
+        grid-template-columns: 0 auto;
+        gap: 10;
     }
 
     main .container .left {
         grid-column: 3/4;
         position: fixed;
+        top: 3.3rem;
         bottom: 0;
-        top: 0;
     }
 
     .left .notifications-popup {
