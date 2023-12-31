@@ -1,5 +1,7 @@
+/* Importing Google Fonts 'Poppins' */
 @import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
 
+/* Defining root variables for color and styling */
 :root {
     --color-white: hsl(252, 30%, 100%);
     --color-light: hsl(252, 30%, 95%);
@@ -21,6 +23,7 @@
     --sticky-top-right: -18rem;
 }
 
+/* Resetting defaults styles for elements */
 *,
 *::before,
 *::after {
@@ -34,6 +37,7 @@
     box-sizing: border-box;
 }
 
+/* Styling the body element */
 body {
     color: var(--color-dark);
     background: var(--color-light);
@@ -47,6 +51,7 @@ body {
     margin: 0 auto;
 }
 
+/* Styling for profile photos */
 .profile-photo {
     width: 2.7rem;
     aspect-ratio: 1/1;
@@ -54,11 +59,13 @@ body {
     overflow: hidden;
 }
 
+/* Styling for images */
 img {
     display: block;
     width: 100%;
 }
 
+/* Styling for generic buttons */
 .btn {
     display: inline-block;
     padding: var(--btn-padding);
@@ -69,24 +76,30 @@ img {
     font-size: 0.9rem;
 }
 
+/* Hover effect for buttons */
 .btn:hover {
     opacity: 0.8;
 }
 
+/* Styling for primary buttons */
 .btn-primary {
     background: var(--color-primary);
     color: #fff;
 }
 
+/* Styling for bold text */
 .text-bold {
     font-weight: 500;
 }
 
+/* Styling for muted text */
 .text-muted {
     color: var(--color-gray);
 }
 
 /* =========== NAVBAR =========== */
+
+/* Styling for the navigation bar */
 nav {
     width: 100%;
     background: var(--color-white);
@@ -96,12 +109,14 @@ nav {
     z-index: 10;
 }
 
+/* Styling for the container bar within the nav bar */
 nav .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
+/* Styling for the search bar */
 .search-bar {
     background: var(--color-light);
     border-radius: var(--border-radius);
@@ -111,6 +126,7 @@ nav .container {
     justify-content: space-between;
 }
 
+/* Styling for search input field */
 .search-bar input[type="search"] {
     background: transparent;
     width: 30vw;
@@ -119,10 +135,12 @@ nav .container {
     color: var(--color-dark);
 }
 
+/* Styling for the search input field placeholder */
 .search-bar input[type="search"]::placeholder {
     color: var(--color-gray);
 }
 
+/* Styling for the create section in the nav bar */
 nav .create {
     display: flex;
     align-items: center;
@@ -130,11 +148,14 @@ nav .create {
 }
 
 /* =========== MAIN =========== */
+
+/* Styling for the main content section */
 main {
     position: relative;
     top: 5.4rem;
 }
 
+/* Styling for the main content container */
 main .container {
     display: grid;
     grid-template-columns: 18vw auto 20vw;
@@ -143,12 +164,15 @@ main .container {
 }
 
 /* ========== LEFT ========== */
+
+/* Styling for the left section */
 main .container .left {
     height: max-content;
     position: sticky;
     top: var(--sticky-top-left);
 }
 
+/* Styling for the profile section in the left section */
 main .container .left .profile {
     padding: var(--card-padding);
     background: var(--color-white);
@@ -160,12 +184,15 @@ main .container .left .profile {
 }
 
 /* ========== SIDEBAR ========== */
+
+/* Styling for the sidebar */
 .left .sidebar {
     margin-top: 1rem;
     background: var(--color-white);
     border-radius: var(--card-border-radius);
 }
 
+/* Styling for each menu item in the sidebar */
 .left .sidebar .menu-item {
     display: flex;
     align-items: center;
@@ -175,10 +202,12 @@ main .container .left .profile {
     position: relative;
 }
 
+/* Hover effect for the menu items in the sidebar */
 .left .sidebar .menu-item:hover {
     background: var(--color-light);
 }
 
+/* Styling for the icons in the sidebar */
 .left .sidebar i {
     font-size: 1.4rem;
     color: var(--color-gray);
@@ -186,6 +215,7 @@ main .container .left .profile {
     position: relative;
 }
 
+/* Styling for the notification count in the sidebar */
 .left .sidebar i .notification-count {
     background: var(--color-danger);
     color: #fff;
@@ -198,20 +228,24 @@ main .container .left .profile {
     right: -0.3rem;
 }
 
+/* Styling for the heading in the sidebar */
 .left .sidebar h3 {
     margin-left: 1.5rem;
     font-size: 1rem;
 }
 
+/* Styling for the active state in the sidebar */
 .left .sidebar .active {
     background: var(--color-light);
 }
 
+/* Styling for the active state elements in the sidebar */
 .left .sidebar .active i,
 .left .sidebar .active h3 {
     color: var(--color-primary);
 }
 
+/* Adding a vertical line before active state in the sidebar */
 .left .sidebar .active::before {
     content: "";
     display: block;
@@ -221,6 +255,7 @@ main .container .left .profile {
     background: var(--color-primary);
 }
 
+/* Special styling for first and last active menu items in the sidebar */
 .left .sidebar .menu-item:first-child.active {
     border-top-left-radius: var(--card-border-radius);
     overflow: hidden;
@@ -231,6 +266,7 @@ main .container .left .profile {
     overflow: hidden;
 }
 
+/* Styling for buttons in the sidebar */
 .left .btn {
     margin: 1rem 0;
     width: 100%;
@@ -238,7 +274,7 @@ main .container .left .profile {
     padding: 1rem 0;
 }
 
-/* ======= NOTIFICATION POPUP ======= */
+/* Styling for the notification popup in the sidebar */
 .left .notifications-popup {
     position: absolute;
     top: 0;
@@ -251,6 +287,7 @@ main .container .left .profile {
     display: none;
 }
 
+/* Styling for the arrow in the notification popup */
 .left .notifications-popup::before {
     content: "";
     width: 1.2rem;
@@ -262,6 +299,7 @@ main .container .left .profile {
     transform: rotate(45deg);
 }
 
+/* Styling for the direct div containers of the  notification popup */
 .left .notifications-popup > div {
     display: flex;
     align-items: start;
@@ -269,11 +307,14 @@ main .container .left .profile {
     margin-bottom: 1rem;
 }
 
+/* Styling for small text within the notification popup */
 .left .notifications-popup small {
     display: block;
 }
 
 /* ============== MIDDLE ================ */
+
+/* Styling for the stories section in the middle content */
 .middle .stories {
     display: flex;
     justify-content: space-between;
@@ -281,6 +322,7 @@ main .container .left .profile {
     gap: 0.5rem;
 }
 
+/* Styling for individual story cards in the middle content */
 .middle .stories .story {
     padding: var(--card-padding);
     border-radius: var(--card-border-radius);
@@ -295,6 +337,7 @@ main .container .left .profile {
     overflow: hidden;
 }
 
+/* Adding a gradient overlay to the bottom of story cards */
 .middle .stories .story::before {
     content: "";
     display: block;
@@ -305,10 +348,12 @@ main .container .left .profile {
     bottom: 0;
 }
 
+/* Styling for the name within story cards */
 .middle .stories .story .name {
     z-index: 2;
 }
 
+/* Background images for individual story cards in the middle content */
 .middle .stories .story:nth-child(1) {
     background: url("images/story-1.jpg") no-repeat center center/cover;
 }
@@ -753,4 +798,3 @@ main .container .right {
         display: none;
     }
 }
-
