@@ -32,7 +32,7 @@ This repository serves as a consolidated portfolio of my web development project
 
 5. **Social Sculpt**
    - ***Description:*** Where Connectivity Meets Creativity in a Responsive Social Media Experience.
-   - ***Hosted Link:*** [Eduford](https://wondrous-jelly-d31b96.netlify.app/)
+   - ***Hosted Link:*** [SocialSculpt](https://wondrous-jelly-d31b96.netlify.app/)
 ---
 
 ## Usage
