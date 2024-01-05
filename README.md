@@ -13,18 +13,27 @@ This repository serves as a consolidated portfolio of my web development project
    - ***Hosted Link:***
        - [To-Do Extensions](https://ornate-starburst-facc70.netlify.app/)
        - [Translator Extensions](https://resplendent-cheesecake-e5a00a.netlify.app/)
+---
 
 2. **PokeDex**
    - ***Description:*** An interactive Pokédex web application showcasing details of various Pokémon.
    - ***Hosted Link:*** [PokeDex](https://dreamy-strudel-74ab8d.netlify.app/)
+---
 
 3. **Freelancer Website**
    - ***Description:*** Discover boundless opportunities on my freelance platform – where talents converge, projects thrive, and success knows no limits.
    - ***Hosted Link:*** [Freelancer](https://storied-brioche-b19aaa.netlify.app/)
+---
 
 4. **Eduford**
    - ***Description:*** Empowering education through a dynamic college website experience.
    - ***Hosted Link:*** [Eduford](https://earnest-malasada-1b41c3.netlify.app/)
+---
+
+4. **Eduford**
+   - ***Description:*** Empowering education through a dynamic college website experience.
+   - ***Hosted Link:*** [Eduford](https://earnest-malasada-1b41c3.netlify.app/)
+---
 
 ## Usage
 Feel free to explore, clone, or fork any project that interests you. Each project directory contains a README file with specific instructions on running or deploying the project. If you have any questions or suggestions, don't hesitate to open an issue.
