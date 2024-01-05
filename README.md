@@ -30,7 +30,7 @@ This repository serves as a consolidated portfolio of my web development project
    - ***Hosted Link:*** [Eduford](https://earnest-malasada-1b41c3.netlify.app/)
 ---
 
-4. **Social Sculpt**
+5. **Social Sculpt**
    - ***Description:*** Where Connectivity Meets Creativity in a Responsive Social Media Experience.
    - ***Hosted Link:*** [Eduford](https://wondrous-jelly-d31b96.netlify.app/)
 ---
